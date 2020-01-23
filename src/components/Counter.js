@@ -1,5 +1,5 @@
 // Smart Component
-import React, { Component } from 'react';
+import React from 'react';
 
 import Control from './Control';
 import Value from './Value';

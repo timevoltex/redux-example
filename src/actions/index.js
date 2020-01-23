@@ -13,6 +13,6 @@ export function decrement() {
 export function setColor(color) {
   return {
     type: types.SET_COLOR,
-    color: color   //  color: color 와 같음
+    color   //  color: color 와 같음
   };
 }

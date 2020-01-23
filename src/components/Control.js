@@ -1,5 +1,5 @@
 //Dumb Component
-import React, {Component} from 'react';
+import React  from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
@@ -17,10 +17,6 @@ const defaultProps = {
 };
 
 class Control extends React.Component{
-  constructor(props){
-    super(props);
-  }
-
   render(){
     return(
       <div>

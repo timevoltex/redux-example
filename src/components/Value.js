@@ -1,6 +1,6 @@
 //Dumb Component
-import React, {Component} from 'react';
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
   number: PropTypes.number //숫자형태
@@ -11,9 +11,6 @@ const defaultProps = {
 };
 
 class Value extends React.Component{
-  constructor(props){
-    super(props);
-  }
 
   render(){
     return(
